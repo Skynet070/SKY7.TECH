@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKY7 TECH</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <!-- Notification Slider (below About section) -->
+    <div class="notification-slider">
+        <p>🚨 Latest Announcement: We're launching new AI-driven support features soon! Stay tuned. 🚨</p>
+    </div>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <img class="logo-animation" src="/image/LOGO 2.png" alt="sky7tech logo" style="height: fit-content; width: 200px;">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Background Image -->
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay">
+            <h2>Empowering Your Business with Exceptional Customer Service</h2>
+            <a href="#contact" class="cta-btn">Get Started</a>
+        </div>
+    </section>
+    <div class="video-container">
+        <video autoplay controls loop>
+            <source src="7989443-hd_1920_1080_25fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <h3>Live Chat Support</h3>
+                <p>Instant communication for your customers with real-time responses.</p>
+            </div>
+            <div class="service-card">
+                <h3>Email Support</h3>
+                <p>Efficient email solutions to manage customer queries effectively.</p>
+            </div>
+            <div class="service-card">
+                <h3>Social Media Management</h3>
+                <p>Manage your online presence with professional social media support.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>
+            At **SKY7 TECH**, we specialize in providing top-notch customer service solutions for businesses of all sizes.
+            We are committed to enhancing your customer experience by offering live chat support, email support, and expert social media management.
+            Our team is driven by a passion for innovation, ensuring that every interaction is seamless and professional.
+            With cutting-edge technology and a dedicated team of experts, we make sure that your customers always feel valued and heard.
+        </p>
+        <p>
+            Whether you’re a startup or an established company, we offer tailored solutions to help your business thrive.
+            Let us take care of your customer service needs so that you can focus on what matters most—growing your business!
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 style="text-align: center;">Contact Us</h2>
+        <p style="text-align: center;">We would love to hear from you! Here are several ways to get in touch with us:</p>
+        <div class="contact-icons">
+            <div class="contact-item">
+                <a href="mailto:skynetwills@gmail.com" class="contact-link">
+                    <i class="fas fa-envelope"></i>
+                    <img src="download-removebg-preview (1).png" style="height: fit-content; width: 50px;">
+                </a>
+            </div>
+            <div class="contact-item">
+                <a href="tel:+2347043495153" class="contact-link">
+                    <i class="fas fa-phone-alt"></i>
+                    <img src="download__1_-removebg-preview (1).png" style="height: fit-content; width: 50px;">  
+                </a>
+            </div>
+            <div class="contact-item">
+                <img src="facebook-removebg-preview.png" style="height: fit-content; width: 50px;">
+                <a href="https://web.facebook.com/profile.php?id=61570393181203" target="_blank" class="contact-link">
+                    <i class="fab fa-facebook"></i>
+                   
+                </a>
+            </div>
+            <div class="contact-item">
+                <a href="https://twitter.com/sky7tech" target="_blank" class="contact-link">
+                    <i class="fab fa-twitter"></i>
+                    <img src="twitter-removebg-preview.png" style="height: fit-content; width: 50px;">
+                </a>
+            </div>
+            <div class="contact-item">
+                <a href="https://instagram.com/sky7tech" target="_blank" class="contact-link">
+                    <i class="fab fa-instagram"></i>
+                    <img src="instagram-removebg-preview.png" style="height: fit-content; width: 50px;">
+                </a>
+            </div>
+            <div class="contact-item">
+                <a href="https://linkedin.com/company/sky7tech" target="_blank" class="contact-link">
+                    <i class="fab fa-linkedin"></i>
+                    <img src="linkedln-removebg-preview.png" style="height: fit-content; width: 50px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="slider">
+            <p>&copy; 2024 SKY7 TECH. All rights reserved.</p> <!-- Duplicate for seamless effect -->
+        </div>
+    </footer>
+
+    <!-- AI Chat Assistant -->
+    <div id="chatbot-button" class="chatbot-btn" onclick="openChat()">
+        <i class="fas fa-comment-alt"></i>
+    </div>
+
+    <div id="chatbox" class="chatbox" style="display: none;">
+        <div class="chat-header">
+            <span>AI Assistant</span>
+            <button onclick="closeChat()">X</button>
+        </div>
+        <div class="chat-content">
+            <p>Hi! How can I help you today?</p>
+        </div>
+        <input type="text" id="chat-input" placeholder="Type a message...">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
